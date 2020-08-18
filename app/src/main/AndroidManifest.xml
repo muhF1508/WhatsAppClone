@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mbarra.whatsappclone">
+    package="idn.project_whatsapp.whatsapp">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -13,13 +15,13 @@
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name=".activities.StatusActivity"></activity>
-        <activity android:name=".activities.ConversationActivity" />
-        <activity android:name=".activities.ContactsActivity" />
-        <activity android:name=".activities.ProfileActivity" />
-        <activity android:name=".activities.SignUpActivity" />
-        <activity android:name=".activities.MainActivity" />
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name="idn.project_whatsapp.whatsapp.activities.ConversationActivity"/>
+        <activity android:name="idn.project_whatsapp.whatsapp.activities.ContactsActivity"/>
+        <activity android:name="idn.project_whatsapp.whatsapp.activities.ProfileActivity"/>
+        <activity android:name="idn.project_whatsapp.whatsapp.activities.MainActivity"/>
+        <activity android:name=".activities.SignUpActivity"/>
+        <activity android:name=".activities.StatusActivity"/>
+        <activity android:name="idn.project_whatsapp.whatsapp.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -9,4 +9,5 @@
         style="@style/MessageBox"
         android:background="@drawable/box_msg_from_me"
         android:textColor="@android:color/black" />
+    
 </LinearLayout>
